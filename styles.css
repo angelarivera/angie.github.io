@@ -1,8 +1,11 @@
-.hendrix {
+#hendrix {
 	border: 10px solid black;
 	padding: 20px;
 }
 /*Padding and border added to at least one element*/
+/*PLUS */
+/*An element styled with an ID*/
+
 
 body {
 	margin: 50px;
@@ -19,3 +22,35 @@ h1 {
 }
 /*A background image on at least one element. The background image will appear on the contact and index.html*/
 
+nav, h1, ul, h2, h3 {
+	font-family: arial;
+}
+/*A different font on at least one element*/
+
+.dogparagraph {
+	color: green;
+}
+/*A few elements styled using a class*/
+
+.Listheading {
+	color: orange;
+}
+/*A few elements styled using a class*/
+
+.buzzfeedparagraph {
+	color: red;
+}
+/*A few elements styled using a class*/
+
+a:visited {
+	color:yellow;
+}
+/*A different color for visited links*/
+
+@media screen and (max-width: 600px) { 
+		#hendrix{
+			float: none;
+			margin:0;
+			width: 100%;
+		}
+/*Add at least one media query to improve the responsiveness of your page. This block of code turns the image ID Hendrix responsive for the user as browser sizes change!*/
