@@ -1,0 +1,21 @@
+.hendrix {
+	border: 10px solid black;
+	padding: 20px;
+}
+/*Padding and border added to at least one element*/
+
+body {
+	margin: 50px;
+}
+/*Margin added to at least one element*/
+
+nav {
+	text-align: center;
+}
+/*At least one centered element*/
+
+h1 {
+	background-image: url("https://previews.123rf.com/images/blacknote/blacknote1207/blacknote120700005/14285318-Color-full-bone-shaped-dog-treats-isolated-of-backgrounds-Stock-Photo.jpg");
+}
+/*A background image on at least one element. The background image will appear on the contact and index.html*/
+
